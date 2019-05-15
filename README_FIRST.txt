@@ -3,7 +3,7 @@ A autocomplete search bar using ReactJS
 
 SETUP and RUN React app
 ------------------------
-I am assuming that you have Node.js installed and you are using Visual Studio Code.
+I am assuming that you have Node.js (node_module package) installed and you are using Visual Studio Code.
 
 Open terminal or Command Prompt and follow the given steps:
 
