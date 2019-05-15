@@ -1,0 +1,53 @@
+
+.inputStyle{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0 0 60px;
+    margin-bottom: -10px;
+    display: inline-block;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    }
+    
+    .parent{
+        width: 87%;
+        border: 1px solid #e7e7e7;
+        padding: 12px 20px;
+        margin: 8px 0 0 60px;   
+    }
+    
+    ul p:hover{
+        background-color: #e7e7e7;
+        cursor: pointer;
+    }
+    
+    .searchsuggestion{
+        font-size: 12px;
+        margin-left: 40px;
+        text-align: left;
+        color: lightslategray;
+    }
+    
+    .resultcontent{
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    button:hover {
+        cursor: pointer;
+    }
+    
+    .remove{
+        color: red;
+        font-size: 12px; 
+        float: right;
+        width: 10%;
+        background-color: white;
+        text-align: center;
+    }
+    
+    .remove:hover {
+        background-color: black;
+    }
