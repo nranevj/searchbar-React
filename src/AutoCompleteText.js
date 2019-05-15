@@ -15,8 +15,7 @@ class AutoCompleteText extends Component{
 
 // Makes API call to fetch JSON data when the application loads
 componentDidMount(){
-    //axios.get('https://raw.githubusercontent.com/nranevj/searchbar/master/src/products.json')
-    axios.get('https://api.myjson.com/bins/psf22.json')
+    axios.get('https://raw.githubusercontent.com/nranevj/searchbar-React/master/products.json')
     .then(response => {
         let allsuggestions = response.data.products.map((key) => {
             return key;
